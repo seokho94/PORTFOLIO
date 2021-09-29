@@ -1,0 +1,85 @@
+using System.Timers;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class GameUI : MonoBehaviour
+{
+    [SerializeField] private Slider Mpbarstaus;
+    [SerializeField] IngameMenu IngameMenu;
+
+    private float maxMp = 100; //최대 HP
+    private float curMP = 100; //현재 HP
+    
+    void Start()
+    {
+        Mpbarstaus.value = (float)curMP / (float)maxMp; //MP 값 설정
+    }
+
+    void Update()
+    {
+        if (IngameMenu.igMenuOn == false)
+        {
+            if (Input.GetKeyDown(KeyCode.Alpha1)) //스킬 사용시 마나 용량 확인
+            {
+                if (curMP <= 5)
+                {
+                    Debug.Log("마나가 부족합니다."); //현재 엠피가 부족할시 디버그
+                }
+                else
+                {
+                    Debug.Log("스킬을 사용했습니다."); //스킬 사용시 마나 감소
+                    curMP -= 5;
+                }
+            }
+
+            if (Input.GetKeyDown(KeyCode.Alpha2))
+            {
+                if (curMP == maxMp)
+                {
+                    Debug.Log("MP가 가득찼습니다.");
+                }
+                else if (curMP + 20 > maxMp)
+                {
+                    curMP = maxMp;
+                    Debug.Log("MP가 가득찼습니다.");
+                }
+                else
+                {
+                    curMP += 20;
+                    Debug.Log("MP를 회복했습니다.");
+                }
+            }
+
+
+            if (curMP != maxMp) { mprecovery(); }
+
+            MpbarValue();
+        }
+    }
+
+    //MP 데이터 최신화
+    private void MpbarValue()
+    {
+        Mpbarstaus.value = (float)curMP / (float)maxMp;
+    }
+    //MP 자연 회복
+    public void mprecovery()
+    {
+        if (curMP != maxMp)
+        {
+            curMP += Time.deltaTime * 1f;
+
+            if (curMP > maxMp)
+            {
+                curMP = maxMp;
+                Debug.Log("Full MP");
+            }
+            Mpbarstaus.value = (float)curMP / (float)maxMp;
+        }
+        else
+        {
+            Debug.Log("Full MP");
+            return;
+        }
+    }
+}

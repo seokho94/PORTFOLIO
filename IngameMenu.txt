@@ -1,0 +1,95 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class IngameMenu : MonoBehaviour
+{
+    [SerializeField] private Button quit_bt;
+    [SerializeField] private Button continue_bt;
+    [SerializeField] private Button option_bt;
+    [SerializeField] private GameObject obj_IOP;
+    [SerializeField] private Button opt_Exit;
+
+    public GameObject obj_ingameoption;
+    bool isESC = false;
+    public bool igMenuOn = false;
+    
+
+    // Start is called before the first frame update
+   //게임 실행시 인게임 옵션 비활성화
+    void Start()
+    {
+        obj_ingameoption.SetActive(false);
+        obj_IOP.SetActive(false);
+        IngameMenu_Close();
+    }
+
+    // ESC 키 입력시 불린 값에 따라 메뉴창 실행
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (isESC == false)
+            {
+                IngameMenu_Open();
+            }
+            else
+            {   
+                IngameMenu_Close();
+            }
+        }
+    }
+
+    //인게임 메뉴 오픈시 게임 일시정지
+    public void IngameMenu_Open()
+    {
+        Time.timeScale = 0;
+        obj_ingameoption.SetActive(true);
+        isESC = true;
+        igMenuOn = true;
+    }
+
+    //인게임 메뉴 종료시 게임 실행
+    public void IngameMenu_Close()
+    {
+        Time.timeScale = 1;
+        obj_ingameoption.SetActive(false);
+        isESC = false;
+        igMenuOn = false;
+    }
+
+    //컨티뉴 버튼 클릭시 게임 실행
+    public void Ingame_Continue()
+    {
+        IngameMenu_Close();
+    }
+
+    //종료 버튼 클릭시 메인 메뉴로
+    public void Ingame_Quit()
+    {
+        Debug.Log("메인메뉴 씬을 불러옵니다.");
+        LoadingSceneController.Instance.LoadScene("MainMenu");
+    }
+
+    //옵션 버튼 클릭시 옵션 설정 화면 활성화
+    public void Ingame_Option()
+    {
+        obj_IOP.SetActive(true);
+        obj_ingameoption.SetActive(false);
+    }
+    
+    //세이브 버튼 클릭시 옵션 세이브
+    public void Ingame_Save()
+    {
+        Debug.Log("저장을 수행합니다");
+        SaveNLoadManager.Instance.SaveData();
+    }
+
+    //Exit 버튼 클릭시 옵션창 종료
+    public void Exit_Button()
+    {
+        obj_IOP.SetActive(false);
+        obj_ingameoption.SetActive(true);
+    }
+}
