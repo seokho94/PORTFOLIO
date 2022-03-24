@@ -1,4 +1,4 @@
-<div align = center>
+<div align = left>
   <h1>Maze Game</h1>  
   <h2>1.Reset Button 기능 구현</h2>
   <div>
