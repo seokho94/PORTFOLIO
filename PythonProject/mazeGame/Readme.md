@@ -1,0 +1,14 @@
+<div align = center>
+  #Maze Game
+  ###1.Reset Button 기능 구현
+  <a href="Reset Button"><img src = "https://github.com/seokho94/PORTFOLIO/blob/main/PythonProject/mazeGame/images/reset_button.gif"></a>
+  
+  ###2.Button으로 플레이
+  <a href="Button Play"><img src = "https://github.com/seokho94/PORTFOLIO/blob/main/PythonProject/mazeGame/images/button_play.gif"></a>
+  
+  ###3.Keyboard로 플레이
+  <a href="Keyboard Play"><img src = "https://github.com/seokho94/PORTFOLIO/blob/main/PythonProject/mazeGame/images/keyboard_play.gif"></a>
+  
+  ###4.미로 탈출 후 입력 제어
+  <a href="after Escape"><img src = "https://github.com/seokho94/PORTFOLIO/blob/main/PythonProject/mazeGame/images/escape.gif"></a>
+</div>
