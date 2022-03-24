@@ -1,8 +1,10 @@
 <div align = center>
   #Maze Game
   ###1.Reset Button 기능 구현
-  <a href="Reset Button"><img src = "https://github.com/seokho94/PORTFOLIO/blob/main/PythonProject/mazeGame/images/reset_button.gif"></a>
-  
+  <div>
+    <a href="Reset Button"><img src = "https://github.com/seokho94/PORTFOLIO/blob/main/PythonProject/mazeGame/images/reset_button.gif"></a>
+  </div>
+    
   ###2.Button으로 플레이
   <a href="Button Play"><img src = "https://github.com/seokho94/PORTFOLIO/blob/main/PythonProject/mazeGame/images/button_play.gif"></a>
   
