@@ -1,5 +1,5 @@
 <div align = left>
-  <h1>Maze Game</h1>  
+  <h1>Lotto 추첨 시스템</h1>  
   <h2>Lotto 번호 출력 구현</h2>
   <div>
     <a href="https://github.com/seokho94/PORTFOLIO/blob/main/JsProject/Lotto/images/Lotto.gif"><img src = "https://github.com/seokho94/PORTFOLIO/blob/main/JsProject/Lotto/images/Lotto.gif" alt="Lotto"></a>
