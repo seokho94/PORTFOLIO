@@ -19,6 +19,6 @@
   <p>빛의 세기가 최댓값 및 최솟값이 되었을 때, bool 값인 isLite의 값을 변경하여 밤낮 전환 시점 파악</p>
   
   <h2>Code</h2>
-    (https://github.com/seokho94/PORTFOLIO/blob/main/Darkest_Lives_Project/LifeCycle/code/Light_Cycle.cs)
+    https://github.com/seokho94/PORTFOLIO/blob/main/Darkest_Lives_Project/LifeCycle/code/Light_Cycle.cs
     
 </div>
