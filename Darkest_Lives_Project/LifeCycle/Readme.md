@@ -1,27 +1,24 @@
 <div align = left>
-  <h1>Maze Game</h1>  
-  <h2>1.Reset Button 기능 구현</h2>
+  <h1>Darkest_Lives_LifeCycle</h1>
+  
+  <p>광석의 발광을 담당하는 AreaLight들을 배열로 담아 Revoke 함수를 통해 특정 시간마다  조명들의 값을 조절하여 밤낮 시스템 구현</p>
+  
+  <h2>1.낮 시스템 구현</h2>
   <div>
-    <a href="https://github.com/seokho94/PORTFOLIO/blob/main/PythonProject/mazeGame/images/reset_button.gif"><img src = "https://github.com/seokho94/PORTFOLIO/blob/main/PythonProject/mazeGame/images/reset_button.gif" alt="Reset Button"></a>
+    <a href="https://github.com/seokho94/PORTFOLIO/blob/main/Darkest_Lives_Project/LifeCycle/gif/turnOn.gif"><img src = "https://github.com/seokho94/PORTFOLIO/blob/main/Darkest_Lives_Project/LifeCycle/gif/turnOn.gif" alt="turnOn.gif"></a>
   </div>
   
-  <p>[Reset Button] map 정보를 Dictionary에 저장 후 랜덤함수를 이용하여 키값을 통해 맵 정보 불러오기</p>  
-  <h2>2.Button으로 플레이</h2>
+  <p>Revoke 함수를 사용하여 일정 주기로 빛의 세기 조절  Rising_Light 메소드를 활용하여 주기마다 (빛의 최대 세기 / 반복 시간) 값으로 빛의 세기 증가</p>  
+  <h2>2.밤 시스템 구현</h2>
   <div>
-    <a href="https://github.com/seokho94/PORTFOLIO/blob/main/PythonProject/mazeGame/images/button_play.gif"><img src = "https://github.com/seokho94/PORTFOLIO/blob/main/PythonProject/mazeGame/images/button_play.gif" alt="Button Play"></a>
+    <a href="https://github.com/seokho94/PORTFOLIO/blob/main/Darkest_Lives_Project/LifeCycle/gif/turnOff.gif"><img src = "https://github.com/seokho94/PORTFOLIO/blob/main/Darkest_Lives_Project/LifeCycle/gif/turnOff.gif" alt="turnOff.gif"></a>
   </div>
   
-  <p>[Button Play] tkinter Button을 활용하여 배열 내부의 플레이어 움직임 작동</p>  
-  <h2>3.Keyboard로 플레이</h2>
-  <div>
-    <a href="https://github.com/seokho94/PORTFOLIO/blob/main/PythonProject/mazeGame/images/keyboard_play.gif"><img src = "https://github.com/seokho94/PORTFOLIO/blob/main/PythonProject/mazeGame/images/keyboard_play.gif" alt="Keyboard Play"></a>
-  </div>  
+  <p>Revoke 함수를 사용하여 일정 주기로 빛의 세기 조절  Sinking_Light 메소드를 활용하여 주기마다 (빛의 최대 세기 / 반복 시간) 값으로 빛의 세기 감소</p>  
   
-  <p>[Keyboard Play]tkinter Bind()함수를 활용하여 키를 입력받고 대응하는 조건문으로 상응하는 키 값에 대한 함수 실행</p>  
-  <h2>4.미로 탈출 후 입력 제어</h2>
-  <div>
-    <a href="https://github.com/seokho94/PORTFOLIO/blob/main/PythonProject/mazeGame/images/escape"><img src = "https://github.com/seokho94/PORTFOLIO/blob/main/PythonProject/mazeGame/images/escape.gif" alt="escape"></a>
-  </div>
+  <p>빛의 세기가 최댓값 및 최솟값이 되었을 때, bool 값인 isLite의 값을 변경하여 밤낮 전환 시점 파악</p>
   
-  <p>[After Escape]미로 탈출 후 입력을 받는 현상을 제어하기 위해 전역 변수로 GameStart Bool 값을 넣어 </p>  
+  <h2>Code</h2>
+    <a href="https://github.com/seokho94/PORTFOLIO/blob/main/Darkest_Lives_Project/LifeCycle/code/Light_Cycle.cs"><img src = "https://github.com/seokho94/PORTFOLIO/blob/main/Darkest_Lives_Project/LifeCycle/code/Light_Cycle.cs" alt="Life_Cycle_Code"></a>
+    
 </div>
