@@ -5,7 +5,7 @@
   
   <h2>1.낮 시스템 구현 (Rising_Light())</h2>
   <div>
-    <a href="https://github.com/seokho94/PORTFOLIO/blob/main/C%23/Darkest_Lives_Project/LifeCycle/gif/turnOn.gif"><img src = "https://github.com/seokho94/PORTFOLIO/blob/main/Darkest_Lives_Project/LifeCycle/gif/turnOn.gif" alt="turnOn.gif"></a>
+    <a href="[https://github.com/seokho94/PORTFOLIO/blob/main/C%23/Darkest_Lives_Project/LifeCycle/gif/turnOn.gif](https://github.com/seokho94/PORTFOLIO/blob/main/C%23/Darkest_Lives_Project/LifeCycle/gif/turnOn.gif)"><img src = "[https://github.com/seokho94/PORTFOLIO/blob/main/Darkest_Lives_Project/LifeCycle/gif/turnOn.gif](https://github.com/seokho94/PORTFOLIO/blob/main/C%23/Darkest_Lives_Project/LifeCycle/gif/turnOn.gif)" alt="turnOn.gif"></a>
   </div>
   
   <p>Revoke 함수를 사용하여 일정 주기로 빛의 세기 조절  Rising_Light 메소드를 활용하여 주기마다 (빛의 최대 세기 / 반복 시간) 값으로 빛의 세기 증가</p>  <p>https://github.com/seokho94/PORTFOLIO/blob/main/C%23/Darkest_Lives_Project/LifeCycle/gif/turnOn.gif</p>
