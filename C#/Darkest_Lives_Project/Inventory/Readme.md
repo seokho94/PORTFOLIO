@@ -3,7 +3,7 @@
   
   <h2>인벤토리 기능 구현</h2>
   <div>
-    <a href="[https://github.com/seokho94/PORTFOLIO/blob/main/Darkest_Lives_Project/Inventory/gif](https://github.com/seokho94/PORTFOLIO/blob/main/C%23/Darkest_Lives_Project/Inventory/gif/Inventory.gif)"><img src = "[https://github.com/seokho94/PORTFOLIO/blob/main/Darkest_Lives_Project/Inventory/gif/Inventory.gif](https://github.com/seokho94/PORTFOLIO/blob/main/C%23/Darkest_Lives_Project/Inventory/gif/Inventory.gif)" alt="Inventory.gif"></a>
+    <a href="https://github.com/seokho94/PORTFOLIO/blob/main/C%23/Darkest_Lives_Project/Inventory/gif/Inventory.gif"><img src = "https://github.com/seokho94/PORTFOLIO/blob/main/C%23/Darkest_Lives_Project/Inventory/gif/Inventory.gif" alt="Inventory.gif"></a>
   </div>
   
   <h3>인벤토리 UI 구현</h3>
