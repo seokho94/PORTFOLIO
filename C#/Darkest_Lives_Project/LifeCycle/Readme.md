@@ -11,10 +11,10 @@
   <p>Revoke 함수를 사용하여 일정 주기로 빛의 세기 조절  Rising_Light 메소드를 활용하여 주기마다 (빛의 최대 세기 / 반복 시간) 값으로 빛의 세기 증가</p>  <p>https://github.com/seokho94/PORTFOLIO/blob/main/C%23/Darkest_Lives_Project/LifeCycle/gif/turnOn.gif</p>
   <h2>2.밤 시스템 구현 (SinkingLight())</h2>
   <div>
-    <a href="https://github.com/seokho94/PORTFOLIO/blob/main/Darkest_Lives_Project/LifeCycle/gif/turnOff.gif"><img src = "https://github.com/seokho94/PORTFOLIO/blob/main/Darkest_Lives_Project/LifeCycle/gif/turnOff.gif" alt="turnOff.gif"></a>
+    <a href="[https://github.com/seokho94/PORTFOLIO/blob/main/Darkest_Lives_Project/LifeCycle/gif/turnOff.gif](https://github.com/seokho94/PORTFOLIO/blob/main/C%23/Darkest_Lives_Project/LifeCycle/gif/turnOff.gif"><img src = "[https://github.com/seokho94/PORTFOLIO/blob/main/Darkest_Lives_Project/LifeCycle/gif/turnOff.gif](https://github.com/seokho94/PORTFOLIO/blob/main/C%23/Darkest_Lives_Project/LifeCycle/gif/turnOff.gif)" alt="turnOff.gif"></a>
   </div>
   
-  <p>Revoke 함수를 사용하여 일정 주기로 빛의 세기 조절  Sinking_Light 메소드를 활용하여 주기마다 (빛의 최대 세기 / 반복 시간) 값으로 빛의 세기 감소</p>  
+  <p>Revoke 함수를 사용하여 일정 주기로 빛의 세기 조절  Sinking_Light 메소드를 활용하여 주기마다 (빛의 최대 세기 / 반복 시간) 값으로 빛의 세기 감소</p>  <p>https://github.com/seokho94/PORTFOLIO/blob/main/C%23/Darkest_Lives_Project/LifeCycle/gif/turnOff.gif</p>  
   
   <p>빛의 세기가 최댓값 및 최솟값이 되었을 때, bool 값인 isLite의 값을 변경하여 밤낮 전환 시점 파악</p>
   
