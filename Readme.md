@@ -2,10 +2,10 @@
   <h1>PORTFOLIO</h1>  
   <h2>1.C# PORTFOLIO</h2>
   <div>
-    <a href="https://github.com/seokho94/PORTFOLIO/blob/main/PythonProject/mazeGame/images/reset_button.gif"><img src = "https://github.com/seokho94/PORTFOLIO/blob/main/PythonProject/mazeGame/images/reset_button.gif" alt="Reset Button"></a>
+    <a href="https://github.com/seokho94/PORTFOLIO/blob/main/C%23/Darkest_Lives_Project/Inventory/gif/Inventory.gif"><img src = "https://github.com/seokho94/PORTFOLIO/blob/main/C%23/Darkest_Lives_Project/Inventory/gif/Inventory.gif" alt="DarkestLive"></a>
   </div>
   
-  <p>DarkestLive 게임 프로젝트</p>  
+  <p>DarkestLive 게임 프로젝트</p>  <a href="https://github.com/seokho94/PORTFOLIO/tree/main/C%23/Darkest_Lives_Project">Url</a>
   <h2>2.JAVA PROTFOLIO</h2>
   <div>
     <a href="https://github.com/seokho94/PORTFOLIO/blob/main/PythonProject/mazeGame/images/button_play.gif"><img src = "https://github.com/seokho94/PORTFOLIO/blob/main/PythonProject/mazeGame/images/button_play.gif" alt="Button Play"></a>
